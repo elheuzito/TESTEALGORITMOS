@@ -34,10 +34,7 @@ Se o Node.js não estiver instalado, você pode baixá-lo em [nodejs.org](https:
 
 4. Para cada algoritmo, você encontrará um arquivo `.js` com a implementação e um arquivo `.test.js` com os testes correspondentes. Para executar os testes de um algoritmo específico, utilize o seguinte comando:
    
-   node nome-do-algoritmo.test.js
-
-Substitua `nome-do-algoritmo` pelo nome do arquivo do algoritmo que você deseja testar (por exemplo, `algoritmo1.test.js`).
-
-5. Os testes serão executados, e você receberá uma saída indicando se os testes foram bem-sucedidos ou se ocorreram falhas.
-
-6. Repita o processo para testar os outros algoritmos.
+   Instalar npm install mocha chai
+   
+5. digitar npx mocha chai NomeDoArquivo.js
+   
